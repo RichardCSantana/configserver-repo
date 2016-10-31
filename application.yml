@@ -1,9 +1,13 @@
 spring:
   main.show_banner: false
-  rabbit:
+  rabbitmq:
     host: rabbit
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery_1:8080/eureka/,http://discovery_2:8080/eureka/
+      defaultZone: http://discovery1:8080/eureka/,http://discovery2:8080/eureka/
     healthcheck.enabled: true
+logging:
+  level:
+    com.netflix.discovery: 'ERROR'
+  # config: 'http://configserver:8080/${spring.application.name}/default/docker/logback-spring.xml'

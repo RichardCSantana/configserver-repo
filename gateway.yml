@@ -1,1 +1,1 @@
-zuul.ignoredServices: configserver
+zuul.ignoredServices: configserver, discovery
