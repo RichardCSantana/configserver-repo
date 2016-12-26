@@ -1,0 +1,3 @@
+feign.compression:
+  request.enabled: true
+  response.enabled: true

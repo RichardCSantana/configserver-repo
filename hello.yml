@@ -1,5 +1,5 @@
 message: "{cipher}AQA/JTf/LWFDVj4FHB2L4OR/1+r/tYv2UkB8Ca0LKmv5o7ZD494rKsXUMFRDxBX/A/X5+vr0a6XmGnEYmuZuY2FjA7FYx/BNFzrX7m75pdfquRJaf3mrtogMou58FBk1PjFtaTTxO8zcWgjQ/yWzH9nsXP2LlxTlpUROtmklaUSCb4lpKYWmTeFPBK8oUuMxw6MtQvr807ZQKEKsoQAz6ygjTCEAPibKFEeiYbisQftAhQfH0TPJPKab8a86JxLGJg/JbHarnoCZ91fKPfNrX30tsS2Anm2NyHBL6JKa8Q/MU8wcEU2VFnwZyDC5JTmROZeI4DtiMaVoXkWiyUXOxOaeBgS+9dCqFyZRCybKtngqpTJ6jBOZ3HOfZhi9xyCkIOsb+knBby0Od0MjOWesGZOn"
-error: false
+error: true
 server:
   port: 8080
   compression.enabled: true
