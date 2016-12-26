@@ -1,0 +1,6 @@
+server.port: 8080
+turbine:
+  stream:
+    port: 8081
+  appConfig: helloconsumer
+  clusterNameExpression: "'default'"
