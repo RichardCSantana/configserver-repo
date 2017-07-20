@@ -1,4 +1,6 @@
-zuul.ignoredServices: configserver, discovery, gateway
+zuul:
+  ignoredServices: configserver, discovery, gateway
+  sensitiveHeaders: Cookie,Set-Cookie
 
 security:
   ignored: /auth/oauth/**
