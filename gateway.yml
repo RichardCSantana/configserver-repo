@@ -1,7 +1,7 @@
 zuul.ignoredServices: configserver, discovery, gateway
 
 security:
-  ignored: auth/oauth/**
+  ignored: /auth/oauth/**
   oauth2.resource:
     user-info-uri: http://auth/me
     load-balanced: true
